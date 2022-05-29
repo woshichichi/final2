@@ -182,6 +182,8 @@ public class WatergateController {
 //            page = JSONUtil.toBean(v, new TypeReference<Page<Watergate>>() {
 //            },true);
 //        }
+
+        System.out.println("sad");
         return Result.success(page);
     }
 
